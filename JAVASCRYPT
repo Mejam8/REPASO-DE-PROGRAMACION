@@ -82,23 +82,35 @@ var myAge;
     ** NOTA: AL PRINCIPIO DE JAVA SE EMPEZO USANDO   > VAR <   PERO DABA MUCHO ERRORES Y LAS NUEVAS
     VERSIONES USAN    > LET <.
     
+ ## Alcance de JavaScript ##
+ 
+>> El alcance: 
+   - Es el conjunto de reglas que se definen en un lenguaje de programación para determinar el valor de una variable.
+     
+   - El valor de una variable se define por su posición cuando se escribe. No cuando se llama.
+   
+  ** NOTA: El alcance es el conjunto de variables visibles para una parte del programa.
+   
+>> Tenemos alcance global %% alcance de bloque %% alcance de función; lo que significa que está disponible en todas las partes de un programa.
+    
     
   ** diferencias simples > var <  VS > let <**
   
-  - PRIMERO SABER QUE ES UN BLOCK O BLOQUE: Una declaración de bloque (o declaración compuesta en otros idiomas)
-  se usa para agrupar cero o más declaraciones. El bloque está delimitado por un par de llaves >  { } < y ** ES OPCIONAL === opcionalmente se puede etiquetar :
-  LAS LABEL O ETIQUETAS: La declaración etiquetada se puede usar con declaraciones break o continue. 
-  Es un prefijo de una declaración con un identificador al que puede referirse.
+  > PRIMERO SABER QUE ES UN BLOCK O BLOQUE: Una declaración de bloque (o declaración compuesta en otros idiomas)
+  se usa para agrupar cero o más declaraciones. El bloque está delimitado por un par de llaves >  { } < y ES OPCIONAL === opcionalmente se puede etiquetar :
+  > LAS LABEL O ETIQUETAS: La declaración etiquetada se puede usar con declaraciones break o continue. 
+     IMPORTANTE DE LO QUE ES ETIQUETA >> Es un prefijo de una declaración con un identificador al que puede referirse.
   break: se puede usar con cualquier declaración etiquetada
-  no se va a tomar en cuenta.
   continue: se puede usar con declaraciones etiquetadas en bucle.
+  
  NOTA EN BLOCK O BLOQUE: Las variables declaradas > var < o creadas por declaraciones de función en modo no estricto no tienen alcance de bloque. OSEA
- AL NO SER ESTRICTA SE REFIERE QUE CUANDO SE DECLARA EN UNA LINEA DE CODIGO SIGUIENTE AL VOLVERLA A DECLARAR CAMBIA SU CONTENIDO
+NO SE LIMITA AL BLOQUE; POR DECIRLO DE MANERA COLOQUIAL EL BLOQUE {} NO LIMITA AL R
  
    ******** REFERENCIA (ALCANCE) URL:https://github.com/Mejam8/REPASO-DE-PROGRAMACION/edit/main/JAVASCRYPT
   ******** REFERENCIA (BLOCK) URL: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/block
   ******** REFERENCIA (ETIQUETAS) URL: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/label
- 
+ let comida = 'salami'
+ let comida = 'pan'
  
  
  
