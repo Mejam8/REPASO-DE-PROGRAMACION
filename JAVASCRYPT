@@ -110,7 +110,10 @@ var myAge;
   
  NOTA EN BLOCK O BLOQUE: Las variables declaradas > var < o creadas por declaraciones de función en modo no estricto no tienen alcance de bloque. OSEA
 NO SE LIMITA AL BLOQUE; POR DECIRLO DE MANERA COLOQUIAL EL BLOQUE {} NO LIMITA AL R
- 
+
+   ******** REFERENCIA (BLOCK) URL: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/block
+   ******** REFERENCIA (ETIQUETAS) URL: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/label
+
  -------------------------------------------  
  
  ## Alcance de JavaScript ##
@@ -124,7 +127,9 @@ NO SE LIMITA AL BLOQUE; POR DECIRLO DE MANERA COLOQUIAL EL BLOQUE {} NO LIMITA A
    
 >> Tenemos alcance global %% alcance de bloque %% alcance de función; lo que significa que está disponible en todas las partes de un programa.
 
-    
+ ******** REFERENCIA (PARAMETRO DE VARIABLE EN UNA FUNCION) URL: https://desarrolloweb.com/articulos/585.php#:~:text=Los%20par%C3%A1metros%20se%20usan%20para,entrada%20que%20recibe%20una%20funci%C3%B3n.
+   ******** REFERENCIA (ALCANCE) URL:https://github.com/Mejam8/REPASO-DE-PROGRAMACION/edit/main/JAVASCRYPT
+ -------------------------------------------      
     
 ## Diferencia  entre >var<, >let< y >const< declaraciones ##
 
@@ -141,11 +146,7 @@ NO SE LIMITA AL BLOQUE; POR DECIRLO DE MANERA COLOQUIAL EL BLOQUE {} NO LIMITA A
  Para evitar confusiones, declare siemprevarvariables al comienzo de una función.
  
   
-
- ******** REFERENCIA (PARAMETRO DE VARIABLE EN UNA FUNCION) URL: https://desarrolloweb.com/articulos/585.php#:~:text=Los%20par%C3%A1metros%20se%20usan%20para,entrada%20que%20recibe%20una%20funci%C3%B3n.
-   ******** REFERENCIA (ALCANCE) URL:https://github.com/Mejam8/REPASO-DE-PROGRAMACION/edit/main/JAVASCRYPT
-  ******** REFERENCIA (BLOCK) URL: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/block
-  ******** REFERENCIA (ETIQUETAS) URL: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/label
-
+ -------------------------------------------  
+  
  
 
