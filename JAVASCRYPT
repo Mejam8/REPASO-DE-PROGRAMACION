@@ -14,17 +14,25 @@ establecer colores de fondo y fuentes, y diseñar nuestro contenido en varias co
 >> JavaScript es un lenguaje de secuencias de comandos que le permite crear 
 contenido de actualización dinámica, controlar multimedia, animar imágenes y casi todo lo demás.
 
+------------------------------------------- 
+
 ## Orden de ejecución de JavaScript ##
+
   - lo ejecuta en orden, de arriba a abajo. Esto significa que debe tener cuidado con el orden en que coloca las cosas. 
 ** # Nota #: Este es un error muy común en la orden de ejecucion: 
   - debe tener cuidado de que los objetos a los que se hace referencia en su código existan antes de intentar hacerles algo.
+  
+------------------------------------------- 
 
 ## Código interpretado VS código compilado ##
+
 >>  En los lenguajes interpretados: 
   - el código se ejecuta de arriba a abajo y el resultado de la ejecución del código se devuelve inmediatamente.
 No tiene que transformar el código, El código se recibe en su forma de texto amigable para el programador y se procesa directamente a partir de ahí.
 >> Los lenguajes compilados:
   - se transforman (compilan) en otra forma (formato binario) partir del código fuente del programa original antes de que la computadora los ejecute.
+  
+------------------------------------------- 
 
 ## Código del lado del servidor VS código del lado del cliente ##
 >> Codigo del lado del cliente:
@@ -36,6 +44,8 @@ el código del lado del cliente de la página se descarga, luego se ejecuta y se
 luego sus resultados se descargan y se muestran en el navegador.
    EJEMPLOS  de lenguajes web populares del lado del servidor incluyen PHP, Python, Ruby, ASP.NET y... ¡JavaScript! JavaScript 
    también se puede utilizar como lenguaje del lado del servidor, por ejemplo, en el popular entorno Node.js
+   
+ ------------------------------------------- 
  
  ## Código dinámico VS estático ##
  >> La palabra dinámica:
@@ -44,6 +54,8 @@ luego sus resultados se descargan y se muestran en el navegador.
  
  >> estática:
  Una página web sin contenido que se actualiza dinámicamente; simplemente muestra el mismo contenido todo el tiempo.
+ 
+ ------------------------------------------- 
  
  ## Almacenamiento de la información que necesita — Variables ##
  
@@ -55,6 +67,8 @@ luego sus resultados se descargan y se muestran en el navegador.
   Las variables no son los valores en sí mismos; son contenedores de valores. 
   Puedes pensar en ellos como pequeñas cajas de cartón en las que puedes guardar cosas.
   
+  ------------------------------------------- 
+  
   >> Declarar una variable <<
   Para usar una variable, primero debe crearla; de manera más precisa, 
   llamamos a esto declarar la variable. Para ello, escribimos la palabra clave > let < seguida
@@ -65,7 +79,8 @@ let myAge;
   
   AL NO DECLARAR LA VARIABLE, ES UN CONTENEDOR VACIO, Y RETURN --->> CON ERROR, Y SI SE DECLARA HACE UN RETURN ->> 'UNDEFINED'
    ** NOTA: no confunda una variable que existe (ESTA DECLARADA) pero que no tiene un valor definido con una variable que no existe (NO FUE DECLARADA) en absoluto.
- 
+   
+------------------------------------------- 
  
  >> Inicializar una variable <<
   - Una vez que haya declarado una variable, puede inicializarla con un valor. 
@@ -74,13 +89,27 @@ let myAge;
   myAge = 37;
   ** NOTA: Puede declarar e inicializar una variable al mismo tiempo, así:
 let myDog = 'Rover';
-  
+
+-------------------------------------------   
+
   >> >> sobre > var <
   una forma diferente de declarar variables, usando la > var < palabra clave:
 var myName;
 var myAge;
     ** NOTA: AL PRINCIPIO DE JAVA SE EMPEZO USANDO   > VAR <   PERO DABA MUCHO ERRORES Y LAS NUEVAS
     VERSIONES USAN    > LET <.
+-------------------------------------------      
+  ## BLOCK Y LABEL ##  
+    
+  > PRIMERO SABER QUE ES UN BLOCK O BLOQUE: Una declaración de bloque (o declaración compuesta en otros idiomas)
+  se usa para agrupar cero o más declaraciones. El bloque está delimitado por un par de llaves >  { } < y ES OPCIONAL === opcionalmente se puede etiquetar :
+  > LAS LABEL O ETIQUETAS: La declaración etiquetada se puede usar con declaraciones break o continue. 
+     IMPORTANTE DE LO QUE ES ETIQUETA >> Es un prefijo de una declaración con un identificador al que puede referirse.
+  break: se puede usar con cualquier declaración etiquetada
+  continue: se puede usar con declaraciones etiquetadas en bucle.
+  
+ NOTA EN BLOCK O BLOQUE: Las variables declaradas > var < o creadas por declaraciones de función en modo no estricto no tienen alcance de bloque. OSEA
+NO SE LIMITA AL BLOQUE; POR DECIRLO DE MANERA COLOQUIAL EL BLOQUE {} NO LIMITA AL R
     
  ## Alcance de JavaScript ##
  
@@ -92,10 +121,8 @@ var myAge;
   ** NOTA: El alcance es el conjunto de variables visibles para una parte del programa.
    
 >> Tenemos alcance global %% alcance de bloque %% alcance de función; lo que significa que está disponible en todas las partes de un programa.
-    
-    
-  ** diferencias simples > var <  VS > let <**
-  
+
+
   > PRIMERO SABER QUE ES UN BLOCK O BLOQUE: Una declaración de bloque (o declaración compuesta en otros idiomas)
   se usa para agrupar cero o más declaraciones. El bloque está delimitado por un par de llaves >  { } < y ES OPCIONAL === opcionalmente se puede etiquetar :
   > LAS LABEL O ETIQUETAS: La declaración etiquetada se puede usar con declaraciones break o continue. 
@@ -105,13 +132,14 @@ var myAge;
   
  NOTA EN BLOCK O BLOQUE: Las variables declaradas > var < o creadas por declaraciones de función en modo no estricto no tienen alcance de bloque. OSEA
 NO SE LIMITA AL BLOQUE; POR DECIRLO DE MANERA COLOQUIAL EL BLOQUE {} NO LIMITA AL R
- 
+    
+  ** diferencias simples > var <  VS > let <**
+  
+
+ ******** REFERENCIA (PARAMETRO DE VARIABLE EN UNA FUNCION) URL: https://desarrolloweb.com/articulos/585.php#:~:text=Los%20par%C3%A1metros%20se%20usan%20para,entrada%20que%20recibe%20una%20funci%C3%B3n.
    ******** REFERENCIA (ALCANCE) URL:https://github.com/Mejam8/REPASO-DE-PROGRAMACION/edit/main/JAVASCRYPT
   ******** REFERENCIA (BLOCK) URL: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/block
   ******** REFERENCIA (ETIQUETAS) URL: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/label
- let comida = 'salami'
- let comida = 'pan'
- 
- 
+
  
 
