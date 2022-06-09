@@ -82,6 +82,7 @@ var myAge;
     ** NOTA: AL PRINCIPIO DE JAVA SE EMPEZO USANDO   > VAR <   PERO DABA MUCHO ERRORES Y LAS NUEVAS
     VERSIONES USAN    > LET <.
     
+    
   ** diferencias simples > var <  VS > let <**
   
   - PRIMERO SABER QUE ES UN BLOCK O BLOQUE: Una declaración de bloque (o declaración compuesta en otros idiomas)
@@ -91,8 +92,11 @@ var myAge;
   break: se puede usar con cualquier declaración etiquetada
   no se va a tomar en cuenta.
   continue: se puede usar con declaraciones etiquetadas en bucle.
-  
-  ******** REFERENCIA (ETIQUETAS) URL: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/block
+ NOTA EN BLOCK O BLOQUE: Las variables declaradas > var < o creadas por declaraciones de función en modo no estricto no tienen alcance de bloque. OSEA
+ AL NO SER ESTRICTA SE REFIERE QUE CUANDO SE DECLARA EN UNA LINEA DE CODIGO SIGUIENTE AL VOLVERLA A DECLARAR CAMBIA SU CONTENIDO
+ 
+   ******** REFERENCIA (ALCANCE) URL:https://github.com/Mejam8/REPASO-DE-PROGRAMACION/edit/main/JAVASCRYPT
+  ******** REFERENCIA (BLOCK) URL: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/block
   ******** REFERENCIA (ETIQUETAS) URL: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/label
  
  
