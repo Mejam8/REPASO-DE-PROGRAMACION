@@ -61,8 +61,10 @@ luego sus resultados se descargan y se muestran en el navegador.
   del nombre con el que queremos llamar a nuestra variable:
 let myName;
 let myAge;
-
   ** NOTA: Nota: en JavaScript, todas las instrucciones del código deben terminar con un punto y coma ( ; )
+  
+  AL NO DECLARAR LA VARIABLE, ES UN CONTENEDOR VACIO, Y RETURN --->> CON ERROR, Y SI SE DECLARA HACE UN RETURN ->> 'UNDEFINED'
+   ** NOTA: no confunda una variable que existe (ESTA DECLARADA) pero que no tiene un valor definido con una variable que no existe (NO FUE DECLARADA) en absoluto.
   
   
     
