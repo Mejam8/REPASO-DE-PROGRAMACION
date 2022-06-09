@@ -79,7 +79,18 @@ let myDog = 'Rover';
   una forma diferente de declarar variables, usando la > var < palabra clave:
 var myName;
 var myAge;
+    ** NOTA: AL PRINCIPIO DE JAVA SE EMPEZO USANDO   > VAR <   PERO DABA MUCHO ERRORES Y LAS NUEVAS
+    VERSIONES USAN    > LET <.
     
+  ** diferencias simples > var <  VS > let <**
+  
+  - PRIMERO SABER QUE ES UN BLOCK O BLOQUE: Una declaración de bloque (o declaración compuesta en otros idiomas)
+  se usa para agrupar cero o más declaraciones. El bloque está delimitado por un par de llaves >  { } < y ** ES OPCIONAL === opcionalmente se puede etiquetar :
+  LAS LABEL O ETIQUETAS: La declaración etiquetada se puede usar con declaraciones break o continue. 
+  Es un prefijo de una declaración con un identificador al que puede referirse.
+  
+  ******** REFERENCIA (ETIQUETAS) URL: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/block
+  ******** REFERENCIA (ETIQUETAS) URL: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/label
  
  
  
