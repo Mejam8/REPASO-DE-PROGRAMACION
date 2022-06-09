@@ -16,10 +16,58 @@ contenido de actualización dinámica, controlar multimedia, animar imágenes y 
 
 ## Orden de ejecución de JavaScript ##
   - lo ejecuta en orden, de arriba a abajo. Esto significa que debe tener cuidado con el orden en que coloca las cosas. 
-
-** # Nota #: Este es un error muy común: 
+** # Nota #: Este es un error muy común en la orden de ejecucion: 
   - debe tener cuidado de que los objetos a los que se hace referencia en su código existan antes de intentar hacerles algo.
 
 ## Código interpretado VS código compilado ##
 >>  En los lenguajes interpretados: 
   - el código se ejecuta de arriba a abajo y el resultado de la ejecución del código se devuelve inmediatamente.
+No tiene que transformar el código, El código se recibe en su forma de texto amigable para el programador y se procesa directamente a partir de ahí.
+>> Los lenguajes compilados:
+  - se transforman (compilan) en otra forma (formato binario) partir del código fuente del programa original antes de que la computadora los ejecute.
+
+## Código del lado del servidor VS código del lado del cliente ##
+>> Codigo del lado del cliente:
+  - El código del lado del cliente es un código que se ejecuta en la computadora del usuario: cuando se ve una página web,
+el código del lado del cliente de la página se descarga, luego se ejecuta y se muestra en el navegador.
+
+>> Codigo del lado del servidor:
+  - El código del lado del servidor, por otro lado, se ejecuta en el servidor, 
+luego sus resultados se descargan y se muestran en el navegador.
+   EJEMPLOS  de lenguajes web populares del lado del servidor incluyen PHP, Python, Ruby, ASP.NET y... ¡JavaScript! JavaScript 
+   también se puede utilizar como lenguaje del lado del servidor, por ejemplo, en el popular entorno Node.js
+ 
+ ## Código dinámico VS estático ##
+ >> La palabra dinámica:
+ El significado es ligeramente diferente en los dos contextos, 
+ pero está relacionado, y ambos enfoques (del lado del servidor y del lado del cliente) generalmente funcionan juntos.
+ 
+ >> estática:
+ Una página web sin contenido que se actualiza dinámicamente; simplemente muestra el mismo contenido todo el tiempo.
+ 
+ ## Almacenamiento de la información que necesita — Variables ##
+ 
+ >> ¿Qué es una variable?
+  - Es un contenedor de un valor, como un número que podríamos usar en una suma o una cadena que podríamos usar como parte de una oración.
+  las variables es que pueden contener casi cualquier cosa, no solo cadenas y números. pueden contener 
+  datos complejos e incluso funciones completas para hacer cosas increíbles.
+  ** NOTA: Decimos que las variables contienen valores. Esta es una distinción importante que hacer.
+  Las variables no son los valores en sí mismos; son contenedores de valores. 
+  Puedes pensar en ellos como pequeñas cajas de cartón en las que puedes guardar cosas.
+  
+  >> Declarar una variable <<
+  Para usar una variable, primero debe crearla; de manera más precisa, 
+  llamamos a esto declarar la variable. Para ello, escribimos la palabra clave > let < seguida
+  del nombre con el que queremos llamar a nuestra variable:
+let myName;
+let myAge;
+
+  ** NOTA: Nota: en JavaScript, todas las instrucciones del código deben terminar con un punto y coma ( ; )
+  
+  
+    
+ 
+ 
+ 
+ 
+
