@@ -65,8 +65,20 @@ let myAge;
   
   AL NO DECLARAR LA VARIABLE, ES UN CONTENEDOR VACIO, Y RETURN --->> CON ERROR, Y SI SE DECLARA HACE UN RETURN ->> 'UNDEFINED'
    ** NOTA: no confunda una variable que existe (ESTA DECLARADA) pero que no tiene un valor definido con una variable que no existe (NO FUE DECLARADA) en absoluto.
+ 
+ 
+ >> Inicializar una variable <<
+  - Una vez que haya declarado una variable, puede inicializarla con un valor. 
+  Para ello, escriba el nombre de la variable, seguido de un signo igual ( = )
+  myName = 'Chris';
+  myAge = 37;
+  ** NOTA: Puede declarar e inicializar una variable al mismo tiempo, así:
+let myDog = 'Rover';
   
-  
+  >> >> sobre > var <
+  una forma diferente de declarar variables, usando la > var < palabra clave:
+var myName;
+var myAge;
     
  
  
