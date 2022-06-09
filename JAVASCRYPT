@@ -88,6 +88,9 @@ var myAge;
   se usa para agrupar cero o más declaraciones. El bloque está delimitado por un par de llaves >  { } < y ** ES OPCIONAL === opcionalmente se puede etiquetar :
   LAS LABEL O ETIQUETAS: La declaración etiquetada se puede usar con declaraciones break o continue. 
   Es un prefijo de una declaración con un identificador al que puede referirse.
+  break: se puede usar con cualquier declaración etiquetada
+  no se va a tomar en cuenta.
+  continue: se puede usar con declaraciones etiquetadas en bucle.
   
   ******** REFERENCIA (ETIQUETAS) URL: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/block
   ******** REFERENCIA (ETIQUETAS) URL: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/label
