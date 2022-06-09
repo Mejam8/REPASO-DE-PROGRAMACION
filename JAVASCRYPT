@@ -132,9 +132,13 @@ NO SE LIMITA AL BLOQUE; POR DECIRLO DE MANERA COLOQUIAL EL BLOQUE {} NO LIMITA A
 
 >> Una variable definida comoconstoletpor otro lado, solo es visible dentro de ese bloque donde reside.
  
+ Es importante comprender que un bloque no define un nuevo alcance para >var<, pero lo hace por >let< y >const<.
+ Un nuevo alcance para >var< solo se crea cuando se crea una función, porque >var< no tiene alcance de bloque, sino alcance de función.
  
- 
- 
+ Dentro de una función, cualquiervarLa variable definida en él es visible en todo el código de la función,
+ incluso si la variable se declara al final de la función, aún se puede hacer referencia al principio, 
+ porque JavaScript antes de ejecutar el código en realidadmueve todas las declaraciones de variables en la parte superior(algo que se llamalevantando). 
+ Para evitar confusiones, declare siemprevarvariables al comienzo de una función.
  
   
 
