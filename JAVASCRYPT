@@ -110,7 +110,9 @@ var myAge;
   
  NOTA EN BLOCK O BLOQUE: Las variables declaradas > var < o creadas por declaraciones de función en modo no estricto no tienen alcance de bloque. OSEA
 NO SE LIMITA AL BLOQUE; POR DECIRLO DE MANERA COLOQUIAL EL BLOQUE {} NO LIMITA AL R
-    
+ 
+ -------------------------------------------  
+ 
  ## Alcance de JavaScript ##
  
 >> El alcance: 
@@ -122,18 +124,18 @@ NO SE LIMITA AL BLOQUE; POR DECIRLO DE MANERA COLOQUIAL EL BLOQUE {} NO LIMITA A
    
 >> Tenemos alcance global %% alcance de bloque %% alcance de función; lo que significa que está disponible en todas las partes de un programa.
 
-
-  > PRIMERO SABER QUE ES UN BLOCK O BLOQUE: Una declaración de bloque (o declaración compuesta en otros idiomas)
-  se usa para agrupar cero o más declaraciones. El bloque está delimitado por un par de llaves >  { } < y ES OPCIONAL === opcionalmente se puede etiquetar :
-  > LAS LABEL O ETIQUETAS: La declaración etiquetada se puede usar con declaraciones break o continue. 
-     IMPORTANTE DE LO QUE ES ETIQUETA >> Es un prefijo de una declaración con un identificador al que puede referirse.
-  break: se puede usar con cualquier declaración etiquetada
-  continue: se puede usar con declaraciones etiquetadas en bucle.
-  
- NOTA EN BLOCK O BLOQUE: Las variables declaradas > var < o creadas por declaraciones de función en modo no estricto no tienen alcance de bloque. OSEA
-NO SE LIMITA AL BLOQUE; POR DECIRLO DE MANERA COLOQUIAL EL BLOQUE {} NO LIMITA AL R
     
-  ** diferencias simples > var <  VS > let <**
+    
+## Diferencia  entre >var<, >let< y >const< declaraciones ##
+
+>> Una variable definida como >var< dentro de una función solo es visible dentro de esa función. Al igual que los parámetros de función.
+
+>> Una variable definida comoconstoletpor otro lado, solo es visible dentro de ese bloque donde reside.
+ 
+ 
+ 
+ 
+ 
   
 
  ******** REFERENCIA (PARAMETRO DE VARIABLE EN UNA FUNCION) URL: https://desarrolloweb.com/articulos/585.php#:~:text=Los%20par%C3%A1metros%20se%20usan%20para,entrada%20que%20recibe%20una%20funci%C3%B3n.
