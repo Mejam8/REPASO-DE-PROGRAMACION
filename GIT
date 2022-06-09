@@ -1,5 +1,7 @@
 # RESUMEN Y *NOTAS IMPORTANTES* #
-Un sistema de control de versiones, o VCS, rastrea el historial de cambios a medida que las personas y los equipos colaboran en proyectos juntos. A medida que los desarrolladores realizan cambios en el proyecto, cualquier versión anterior del proyecto se puede recuperar en cualquier momento.
+
+Un sistema de control de versiones, o VCS, rastrea el historial de cambios a medida que las personas y los equipos colaboran en proyectos juntos. 
+A medida que los desarrolladores realizan cambios en el proyecto, cualquier versión anterior del proyecto se puede recuperar en cualquier momento.
 
 Los desarrolladores pueden revisar el historial del proyecto para averiguar:
 
@@ -7,6 +9,11 @@ Los desarrolladores pueden revisar el historial del proyecto para averiguar:
 ¿Quién hizo los cambios?
 ¿Cuándo se hicieron los cambios?
 ¿Por qué se necesitaban cambios?
-Los VCS brindan a cada colaborador una vista unificada y consistente de un proyecto, mostrando el trabajo que ya está en progreso. Ver un historial transparente de cambios, quién los hizo y cómo contribuyen al desarrollo de un proyecto ayuda a los miembros del equipo a mantenerse alineados mientras trabajan de forma independiente.
 
-En un sistema de control de versiones distribuido, cada desarrollador tiene una copia completa del proyecto y el historial del proyecto. A diferencia de los sistemas de control de versiones centralizados que alguna vez fueron populares, los DVCS no necesitan una conexión constante a un repositorio central. 
+Los VCS brindan a cada colaborador una vista unificada y consistente de un proyecto, mostrando el trabajo que ya está en progreso. 
+Ver un historial transparente de cambios, quién los hizo y cómo contribuyen al desarrollo de un proyecto ayuda a los miembros del equipo a mantenerse alineados 
+mientras trabajan de forma independiente.
+
+En un sistema de control de versiones distribuido, cada desarrollador tiene una copia completa del proyecto y el historial del proyecto.
+A diferencia de los sistemas de control de versiones centralizados que alguna vez fueron populares, 
+los DVCS no necesitan una conexión constante a un repositorio central. 
