@@ -1,0 +1,25 @@
+## Primeros pasos de JavaScript ##
+
+>> ¿Qué es JavaScript?
+  - Es un lenguaje de secuencias de comandos o de programación que le permite implementar funciones complejas en páginas web.
+  - Es la tercera capa del pastel abajo hacia arriba (java, css y html) de capas de tecnologías web estándar, dos de las cuales ( HTML y CSS )
+    hemos cubierto con mucho más detalle en otras partes del Área de aprendizaje.
+
+>> HTML es el lenguaje de marcado que usamos para estructurar y dar significado a nuestro contenido web, por ejemplo, 
+definir párrafos, encabezados y tablas de datos, o incrustar imágenes y videos en la página.
+
+>> CSS es un lenguaje de reglas de estilo que usamos para aplicar estilo a nuestro contenido HTML, por ejemplo, 
+establecer colores de fondo y fuentes, y diseñar nuestro contenido en varias columnas.
+
+>> JavaScript es un lenguaje de secuencias de comandos que le permite crear 
+contenido de actualización dinámica, controlar multimedia, animar imágenes y casi todo lo demás.
+
+## Orden de ejecución de JavaScript ##
+  - lo ejecuta en orden, de arriba a abajo. Esto significa que debe tener cuidado con el orden en que coloca las cosas. 
+
+** # Nota #: Este es un error muy común: 
+  - debe tener cuidado de que los objetos a los que se hace referencia en su código existan antes de intentar hacerles algo.
+
+## Código interpretado VS código compilado ##
+>>  En los lenguajes interpretados: 
+  - el código se ejecuta de arriba a abajo y el resultado de la ejecución del código se devuelve inmediatamente.
