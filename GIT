@@ -17,3 +17,32 @@ mientras trabajan de forma independiente.
 En un sistema de control de versiones distribuido, cada desarrollador tiene una copia completa del proyecto y el historial del proyecto.
 A diferencia de los sistemas de control de versiones centralizados que alguna vez fueron populares, 
 los DVCS no necesitan una conexión constante a un repositorio central. 
+
+>>> Git permite a los desarrolladores ver la línea de tiempo completa de sus cambios, decisiones y progreso de cualquier proyecto en un solo lugar.
+>>> Los desarrolladores trabajan en todas las zonas horarias. 
+>>> Mediante el uso de ramas, los desarrolladores pueden proponer cambios en el código de producción de forma segura.
+>>> Las empresas que usan Git pueden romper las barreras de comunicación entre los equipos y mantenerlos enfocados en hacer su mejor trabajo.
+
+## Acerca de los repositorios ##
+- Un repositorio, o proyecto Git, abarca la colección completa de archivos y carpetas asociados con un proyecto, 
+junto con el historial de revisión de cada archivo. El historial del archivo aparece como instantáneas en el tiempo llamadas confirmaciones. 
+Los compromisos se pueden organizar en múltiples líneas de desarrollo llamadas ramas.
+- un repositorio de Git también permite: la interacción con el historial, la clonación del repositorio, la creación de ramas, la confirmación, la fusión, 
+la comparación de cambios entre versiones de código y más.
+
+## Cómo funciona GitHub ##
+
+- GitHub aloja repositorios de Git y brinda a los desarrolladores herramientas para enviar un mejor código a través de funciones 
+de línea de comandos, problemas (discusiones en hilos), solicitudes de incorporación de cambios, revisión de código o el uso de una colección
+de aplicaciones gratuitas y de pago en el mercado de GitHub.
+
+*NOTA : El trabajo se organiza en repositorios donde los desarrolladores pueden delinear los requisitos o la dirección y establecer
+expectativas para los miembros del equipo. Luego, usando el flujo de GitHub, los desarrolladores simplemente crean una rama para trabajar en las actualizaciones,
+confirman los cambios para guardarlos, abren una solicitud de incorporación de cambios para proponer y discutir cambios, 
+y fusionan las solicitudes de incorporación de cambios una vez que todos están en la misma página.
+
+
+REF
+https://docs.github.com/en/get-started/using-git/about-git
+https://git-scm.com/docs/giteveryday#STANDALONE
+https://prep.soyhenry.com/git/
