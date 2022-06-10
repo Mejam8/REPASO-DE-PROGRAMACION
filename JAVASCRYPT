@@ -107,14 +107,16 @@ var myAge;
   ## BLOCK Y LABEL ##  
     
   > BLOCK O BLOQUE: Una declaración de bloque || declaración compuesta,
-  se usa para agrupar cero o más declaraciones. El bloque está delimitado por un par de llaves >  { } < y "ES OPCIONAL" === opcionalmente se puede etiquetar :
+   El bloque está delimitado por un par de llaves >  { } < 
+   se usa para agrupar cero o más declaraciones. 
+   Opcionalmente se puede etiquetar :
   
-  > LAS LABEL O ETIQUETAS: 
-    SE UTILIZA UN LABEL QUE IDENTIFICA QUE NO SEA UNA PALABRA RESERVADA. QUE SE DECLARA
-  - LOS LABEL===ETIQUETA IDENTIFICA EL BUCLE Y LUEGO LOS DECLARA===STATEMENT CON break || continue; 
-  - Que se usa para interrumpir(break) el ciclo o continuar(continue) su ejecución.
-    break: se puede usar con cualquier declaración etiquetada. NO NECESARIAMENTE UN BUCLE
-    continue: se puede usar con declaraciones etiquetadas en bucle.
+                      > LAS LABEL O ETIQUETAS: 
+                                - SE UTILIZA UN LABEL QUE IDENTIFICA QUE NO SEA UNA PALABRA RESERVADA. QUE SE DECLARA
+                                - LOS LABEL===ETIQUETA IDENTIFICA EL BUCLE Y LUEGO LOS DECLARA===STATEMENT CON break || continue; 
+                                - Que se usa para interrumpir(break) el ciclo o continuar(continue) su ejecución.
+                                         break: se puede usar con cualquier declaración etiquetada. NO NECESARIAMENTE UN BUCLE; EJ: UN BLOQUE > { } <
+                                         continue: se puede usar con declaraciones etiquetadas en bucle.
   
   
 
