@@ -143,18 +143,20 @@ var myAge;
 
  ******** REFERENCIA (PARAMETRO DE VARIABLE EN UNA FUNCION) URL: https://desarrolloweb.com/articulos/585.php#:~:text=Los%20par%C3%A1metros%20se%20usan%20para,entrada%20que%20recibe%20una%20funci%C3%B3n.
    ******** REFERENCIA (ALCANCE) URL:https://github.com/Mejam8/REPASO-DE-PROGRAMACION/edit/main/JAVASCRYPT
- -------------------------------------------      
+ -------------------------------------------  
+ 
+ ## Continuaciohnj Variables >>> 
     
 ## Diferencia  entre >var<, >let< y >const< declaraciones ##
 
 >> Una variable definida como >var< dentro de una función solo es visible dentro de esa función. Al igual que los parámetros de función.
 
->> Una variable definida comoconstoletpor otro lado, solo es visible dentro de ese bloque donde reside.
+>> Una variable definida como >const< o > let< por otro lado, solo es visible dentro de ese bloque donde reside.
  
  Es importante comprender que un bloque no define un nuevo alcance para >var<, pero lo hace por >let< y >const<.
- Un nuevo alcance para >var< solo se crea cuando se crea una función, porque >var< no tiene alcance de bloque, sino alcance de función.
+ Un nuevo alcance para >var< solo se crea cuando se crea una función, porque >var< no tiene alcance de bloque(BLOCK SCOPE), si no alcance de función.
  
- Dentro de una función, cualquiervarLa variable definida en él es visible en todo el código de la función,
+ Dentro de una función, cualquier >var< La variable definida en él es visible en todo el código de la función,
  incluso si la variable se declara al final de la función, aún se puede hacer referencia al principio, 
  porque JavaScript antes de ejecutar el código en realidadmueve todas las declaraciones de variables en la parte superior(algo que se llamalevantando). 
  Para evitar confusiones, declare siemprevarvariables al comienzo de una función.
