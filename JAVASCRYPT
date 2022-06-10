@@ -112,7 +112,7 @@ var myAge;
     - Opcionalmente se puede etiquetar :
   
                       >> LAS LABEL O ETIQUETAS: 
-                                - SE UTILIZA UN LABEL QUE IDENTIFICA QUE NO SEA UNA PALABRA RESERVADA. QUE SE DECLARA
+                                - SE UTILIZA UN LABEL QUE IDENTIFICA QUE NO SEA UNA PALABRA RESERVADA. QUE SE DECLARA === STATEMENT
                                 - LOS LABEL===ETIQUETA IDENTIFICA EL BUCLE Y LUEGO LOS DECLARA===STATEMENT CON break || continue; 
                                 - Que se usa para interrumpir(break) el ciclo o continuar(continue) su ejecución.
                                          break: se puede usar con cualquier declaración etiquetada. NO NECESARIAMENTE UN BUCLE; EJ: UN BLOQUE > { } <
@@ -122,8 +122,8 @@ var myAge;
     - Le permite usar múltiples declaraciones donde JavaScript espera solo una declaración.
     - LOS BLOCK SE USAN COMUNMENTE POR > if...else < || > for <
    REGLAS DE BLOCK SCOPE:
-   > var < || > function statement : NO ES ESTRICTO, NO TIENE BLOCK SCOPE.
-   > let < || > const < : ES ESTRICTO, TIENE BLOCK SCOPE
+   > var < || > function statement : NO ES ESTRICTO, NO TIENE BLOCK SCOPE. >> EJ: AL SER UN STATEMENT NO ESTRICTA, NO TIENE UN IMPEDIMENTO AL BLOCK OSEA SE EJECUTARA LA ULTIMA DECLARACION
+   > let < || > const < : ES ESTRICTO, TIENE BLOCK SCOPE. >> EJ: AL SER UN STATEMENT ESTRICTA, TIENE IMPEDIMENTO AL BLOCK Y NO VA A TOMARLO EN CUENTA.
 
    ******** REFERENCIA (BLOCK) URL: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/block
    ******** REFERENCIA (ETIQUETAS) URL: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/label
