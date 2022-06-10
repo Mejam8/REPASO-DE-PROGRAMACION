@@ -185,9 +185,19 @@ var myAge;
     tipos diferentes de datos que podemos almacenar en variables; EJ: El valor que se le da a la variable.
     
     >> Números
- 
- 
- 
+         Puede almacenar números en variables, ya sean números enteros como 30  o números decimales como 2,456 (también llamados números flotantes o de coma flotante).
+    >> String o cadena:
+          son fragmentos de texto. Cuando le da a una variable un valor de cadena, debe envolverlo entre comillas simples o dobles; 
+              de lo contrario, JavaScript intenta interpretarlo como otro nombre de variable.
+    >> Booleanos:
+         Los valores booleanos son valores verdadero/falso, se utilizan para probar una condición, Esto usa el operador ej <, >, = etc..
+    >> array o arreglo: Una matriz es un único objeto que contiene varios valores encerrados entre corchetes y separados por comas.
+         Una vez que se definen estas matrices, puede acceder a cada valor por su ubicación dentro de la matriz. empezando desde el primero con 0,1,2,3 etc.
+    >> Objetos: 
+         un objeto es una estructura de código que modela un objeto de la vida real.
+                 objeto simple que represente una caja y contenga información sobre su ancho, largo y alto
+                 objeto que represente a una persona y contenga datos sobre su nombre, altura, peso, qué idioma habla, cómo para saludarlos, y más.
+                 
  
  
  
