@@ -178,7 +178,7 @@ var myAge;
    No use solo letras/números individuales, o frases grandes y largas.
  - Las variables distinguen entre mayúsculas y minúsculas, al igual myageque una variable diferente de myAge.
  - IMPORTANTE no se puede usar palabras reservadas (var, let, const, function, etc...)
- 
+   URL: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Lexical_grammar#keywords
  
  
  
