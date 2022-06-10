@@ -221,7 +221,23 @@ var myAge;
                                                           typeof myNumber;
 
 
+## Constantes en JavaScript ##
+Además de variables, puede declarar constantes. Son como variables, excepto que:
 
+debes inicializarlos cuando los declaras
+no puede asignarles un nuevo valor después de haberlos inicializado.
+
+             Tenga en cuenta que aunque una constante en JavaScript siempre debe nombrar el mismo valor, puede cambiar el contenido del valor que nombra. 
+                Esta no es una distinción útil para tipos simples como números o booleanos, pero considere un objeto:
+
+                               const bird = { species : 'Kestrel'};
+                               console.log(bird.species);  // "Kestrel"
+
+             Puede actualizar, agregar o eliminar propiedades de un objeto declarado mediante const, 
+             porque aunque el contenido del objeto haya cambiado, la constante sigue apuntando al mismo objeto:
+
+                                 bird.species = 'Striated Caracara';
+                                 console.log(bird.species);  // "Striated Caracara"
  
  
  
