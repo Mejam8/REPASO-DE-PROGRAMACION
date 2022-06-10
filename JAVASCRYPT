@@ -145,7 +145,6 @@ var myAge;
    ******** REFERENCIA (ALCANCE) URL:https://github.com/Mejam8/REPASO-DE-PROGRAMACION/edit/main/JAVASCRYPT
  -------------------------------------------  
  
- ## Continuaciohnj Variables >>> 
     
 ## Diferencia  entre >var<, >let< y >const< declaraciones ##
 
@@ -160,9 +159,34 @@ var myAge;
  incluso si la variable se declara al final de la función, aún se puede hacer referencia al principio, 
  porque JavaScript antes de ejecutar el código en realidadmueve todas las declaraciones de variables en la parte superior(algo que se llamalevantando). 
  Para evitar confusiones, declare siemprevarvariables al comienzo de una función.
- 
-  
+
  -------------------------------------------  
+ 
+ 
+ ## Continuaciohnj Variables >>>
+ 
+## las reglas de nomenclatura de variables ##
+ - Puedes llamar a una variable prácticamente como quieras, pero hay limitaciones. 
+ - Debe limitarse a usar solo caracteres latinos (0-9, az, AZ) y el carácter de subrayado.
+ - No debe usar otros caracteres porque pueden causar errores o ser difíciles de entender para una audiencia internacional.
+ - No use guiones bajos al comienzo de los nombres de las variables; esto se usa en ciertas construcciones de JavaScript para significar cosas específicas, 
+   por lo que puede resultar confuso.
+ - No utilice números al principio de las variables. Esto no está permitido y provoca un error.
+ - Una convención segura a seguir es la llamada "minúscula camello" , en la que se unen varias palabras,
+   usando minúsculas para la primera palabra completa y luego mayúsculas para las palabras siguientes.
+ - Haga que los nombres de las variables sean intuitivos, para que describan los datos que contienen. 
+   No use solo letras/números individuales, o frases grandes y largas.
+ - Las variables distinguen entre mayúsculas y minúsculas, al igual myageque una variable diferente de myAge.
+ - IMPORTANTE no se puede usar palabras reservadas (var, let, const, function, etc...)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
   
  
 
