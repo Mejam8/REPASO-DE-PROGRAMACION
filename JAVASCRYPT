@@ -179,7 +179,8 @@ var myAge;
  - Las variables distinguen entre mayúsculas y minúsculas, al igual myageque una variable diferente de myAge.
  - IMPORTANTE no se puede usar palabras reservadas (var, let, const, function, etc...)
    URL: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Lexical_grammar#keywords
- 
+
+ -------------------------------------------   
  
  ## Tipos de variables ##
     tipos diferentes de datos que podemos almacenar en variables; EJ: El valor que se le da a la variable.
@@ -203,7 +204,8 @@ var myAge;
         Para recuperar la información almacenada en el objeto, puede utilizar la siguiente sintaxis:
           dog.name
           
-          
+ 
+ -------------------------------------------           
           
  ## Escritura dinámica ##
  no necesita especificar qué tipo de datos contendrá una variable (números, cadenas, matrices, etc.).
@@ -220,6 +222,7 @@ var myAge;
                                                   myNumber = 500; // much better — now this is a number
                                                           typeof myNumber;
 
+ -------------------------------------------  
 
 ## Constantes en JavaScript ##
 Además de variables, puede declarar constantes. Son como variables, excepto que:
@@ -240,7 +243,25 @@ no puede asignarles un nuevo valor después de haberlos inicializado.
                                  console.log(bird.species);  // "Striated Caracara"
  
  
+ -------------------------------------------  
+ 
+##  Matemáticas básicas en JavaScript: números y operadores ##
+ - tipos de numeros
+ - todo son numeros para mi
+ - Métodos numéricos útiles
+ - Conversión a tipos de datos numéricos
+ - Operadores aritméticos
+ - Precedencia del operador
+ - Operadores de incremento y decremento
+ - Operadores de Asignación
+ - Operadores de comparación
+ 
+URL :  https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Math
+ 
+ 
+ 
  
   
  
 
+ 
