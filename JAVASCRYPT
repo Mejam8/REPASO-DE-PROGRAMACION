@@ -181,6 +181,12 @@ var myAge;
    URL: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Lexical_grammar#keywords
  
  
+ ## Tipos de variables ##
+    tipos diferentes de datos que podemos almacenar en variables; EJ: El valor que se le da a la variable.
+    
+    >> Números
+ 
+ 
  
  
  
