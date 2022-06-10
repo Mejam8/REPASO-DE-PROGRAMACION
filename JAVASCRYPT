@@ -246,15 +246,17 @@ no puede asignarles un nuevo valor después de haberlos inicializado.
  -------------------------------------------  
  
 ##  Matemáticas básicas en JavaScript: números y operadores ##
- - tipos de numeros
- - todo son numeros para mi
- - Métodos numéricos útiles
- - Conversión a tipos de datos numéricos
- - Operadores aritméticos
- - Precedencia del operador
- - Operadores de incremento y decremento
- - Operadores de Asignación
- - Operadores de comparación
+ > tipos de numeros
+ > todo son numeros para mi
+ > Métodos numéricos útiles
+ > Conversión a tipos de datos numéricos
+ > Operadores aritméticos
+ > Precedencia del operador
+           -  es la misma que se enseña en las clases de matemáticas en la escuela: primero se multiplican y dividen, 
+                 luego se suman y restan (el cálculo siempre se evalúa de izquierda a derecha).
+ > Operadores de incremento y decremento
+ > Operadores de Asignación
+ > Operadores de comparación
  
 URL :  https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Math
  
