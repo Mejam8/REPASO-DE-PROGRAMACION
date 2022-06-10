@@ -106,15 +106,18 @@ var myAge;
 -------------------------------------------      
   ## BLOCK Y LABEL ##  
     
-  > PRIMERO SABER QUE ES UN BLOCK O BLOQUE: Una declaración de bloque (o declaración compuesta en otros idiomas)
-  se usa para agrupar cero o más declaraciones. El bloque está delimitado por un par de llaves >  { } < y ES OPCIONAL === opcionalmente se puede etiquetar :
-  > LAS LABEL O ETIQUETAS: La declaración etiquetada se puede usar con declaraciones break o continue. 
-     IMPORTANTE DE LO QUE ES ETIQUETA >> Es un prefijo de una declaración con un identificador al que puede referirse.
-  break: se puede usar con cualquier declaración etiquetada
-  continue: se puede usar con declaraciones etiquetadas en bucle.
+  > BLOCK O BLOQUE: Una declaración de bloque || declaración compuesta,
+  se usa para agrupar cero o más declaraciones. El bloque está delimitado por un par de llaves >  { } < y "ES OPCIONAL" === opcionalmente se puede etiquetar :
   
- NOTA EN BLOCK O BLOQUE: Las variables declaradas > var < o creadas por declaraciones de función en modo no estricto no tienen alcance de bloque. OSEA
-NO SE LIMITA AL BLOQUE; POR DECIRLO DE MANERA COLOQUIAL EL BLOQUE {} NO LIMITA AL R
+  > LAS LABEL O ETIQUETAS: 
+    SE UTILIZA UN LABEL QUE IDENTIFICA QUE NO SEA UNA PALABRA RESERVADA. QUE SE DECLARA
+  - LOS LABEL===ETIQUETA IDENTIFICA EL BUCLE Y LUEGO LOS DECLARA===STATEMENT CON break || continue; 
+  - Que se usa para interrumpir(break) el ciclo o continuar(continue) su ejecución.
+    break: se puede usar con cualquier declaración etiquetada. NO NECESARIAMENTE UN BUCLE
+    continue: se puede usar con declaraciones etiquetadas en bucle.
+  
+  
+
 
    ******** REFERENCIA (BLOCK) URL: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/block
    ******** REFERENCIA (ETIQUETAS) URL: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/label
